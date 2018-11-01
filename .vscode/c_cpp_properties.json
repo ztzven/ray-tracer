@@ -1,0 +1,45 @@
+{
+    "configurations": [ {
+        "name": "Win32",
+        "includePath": [
+            "${workspaceFolder}/src/**/*",
+            "C:/VulkanSDK/1.1.85.0/Include",
+            "C:/glm-0.9.9.2/glm"
+        ],
+        "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_UNICODE"
+        ],
+        "compilerPath": "C:/msys32/mingw32/bin/gcc.exe",
+        "intelliSenseMode": "clang-x64",
+        "browse": {
+            "path": [
+                "${workspaceFolder}"
+            ],
+            "limitSymbolsToIncludedHeaders": true,
+            "databaseFilename": ""
+        }
+    }, {
+        "name": "Linux",
+        "includePath": [
+            "${workspaceFolder}/src",
+            "/home/steven/sdk/glm"
+        ],
+        "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_UNICODE"
+        ],
+        "compilerPath": "/usr/bin/gcc",
+        "browse": {
+            "path": [
+                "${workspaceFolder}/src",
+                "/home/steven/sdk/glm"
+            ],
+            "limitSymbolsToIncludedHeaders": true,
+            "databaseFilename": ""
+        }
+    } ],
+    "version": 4
+}
