@@ -4,11 +4,13 @@
 using namespace glm;
 
 #include "Ray.hpp"
+#include "Material.hpp"
 
 struct HitRecord {
     float t;
     vec3 position;
     vec3 normal;
+    Material* pMaterial;
 };
 
 class Hitable {
